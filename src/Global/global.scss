@@ -1,0 +1,78 @@
+@import './colors.scss';
+
+.title {
+    font-size: 2em;
+    color: $Titulo;
+}
+
+.linkClick {
+    background-color: $ColorButton;
+    text-decoration: none;
+    width: 80%;
+    padding: 10px;
+    border-radius: 0.5em;
+    color: white;
+    &:hover {
+        background-color: $Background_ColorNaranjaOscuro;
+    }
+}
+.buttonClick {
+    background-color: $ColorButton;
+    text-decoration: none;
+    width: 90%;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 0.5em;
+    color: white;
+    &:hover {
+        background-color: $Background_ColorNaranjaOscuro;
+    }
+}
+.buttonLink {
+    border: 2px solid $Texto;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    background-color: $ColorButton;
+    border-radius: 1em;
+    &:hover {
+        background-color: $Texto;
+        color: $Blanco;
+    }
+}
+
+.buttonCart,
+.buttonCartEnd {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    color: $Blanco;
+    background-color: $ColorButton;
+    font-size: 25px;
+    font-weight: 600;
+    &:hover {
+        background-color: $Background_ColorNaranjaOscuro;
+    }
+}
+.buttonCartEnd {
+    margin-top: 50px;
+}
+
+.buttonCart {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .linkClick {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .linkClick {
+        font-size: 18px;
+    }
+}

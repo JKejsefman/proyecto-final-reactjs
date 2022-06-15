@@ -1,0 +1,93 @@
+@import '../../../global/Colors.scss';
+@import '../../../global/global.scss';
+
+.itemListContainer {
+    margin: 60px 0px;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.listProduct {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    .ItemsProducts {
+        background-color: $Fondo;
+        margin: 20px auto;
+        padding: 30px;
+        h1 {
+            font-size: 15px;
+            color: $Titulo;
+        }
+        img {
+            background-color: $Blanco;
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
+        p.Price {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        p {
+            color: $Texto;
+        }
+        .spanBlock {
+            font-size: 20px;
+            font-weight: 600;
+            color: gray;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .itemListContainer {
+        margin: 60px 30px;
+        padding: 50px 50px;
+    }
+
+    .listProduct {
+        flex-direction: row;
+        .ItemsProducts {
+            width: calc(60% / 2);
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .itemListContainer {
+        margin: 30px 30px;
+        padding: 50px 50px;
+    }
+
+    .listProduct {
+        flex-direction: row;
+        .ItemsProducts {
+            width: calc(80% / 4);
+            height: 350px;
+            img {
+                width: 200px;
+                height: 200px;
+            }
+            h1 {
+                font-size: 25px;
+                color: $Titulo;
+            }
+            p.Price {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            p {
+                color: $Texto;
+            }
+        }
+    }
+}

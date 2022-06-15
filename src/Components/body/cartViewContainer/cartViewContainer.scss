@@ -1,0 +1,93 @@
+@import '../../../global/Colors.scss';
+
+.containerCart {
+    width: 80%;
+    margin: auto;
+}
+.listNotCart {
+    h2 {
+        margin-top: 50px;
+        text-align: center;
+        color: $Titulo;
+    }
+    h3 {
+        text-align: center;
+        color: $Titulo;
+    }
+    a {
+        width: 100%;
+    }
+}
+.listCartProduct {
+    background-color: $Background_ColorNaranjaOscuro;
+    border-collapse: collapse;
+
+    display: block;
+    overflow-x: auto;
+    thead th:nth-child(1) {
+        width: 20%;
+    }
+
+    thead th:nth-child(2) {
+        width: 50%;
+    }
+
+    thead th:nth-child(3) {
+        width: 10%;
+    }
+
+    thead th:nth-child(4) {
+        width: 20%;
+    }
+}
+
+.listCartHead {
+    background-color: $Background_ColorNaranjaOscuro;
+    color: $Blanco;
+
+    tr {
+        th {
+            padding: 10px;
+        }
+    }
+}
+.listCartTotal {
+    background-color: $Background_ColorNaranjaOscuro;
+    color: $Blanco;
+    padding: 20px;
+    text-align: center;
+}
+.listCartBody {
+    background-color: $Blanco;
+    color: $Texto;
+    tr {
+        td {
+            padding: 20px;
+            text-align: center;
+        }
+    }
+    img {
+        background-color: $Blanco;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        object-fit: contain;
+        border-radius: 1em;
+    }
+    i {
+        position: relative;
+        top: 0px;
+        color: $Titulo;
+        font-size: 30px;
+        font-weight: 600;
+        &:hover {
+            color: $Texto;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
