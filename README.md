@@ -1,4 +1,4 @@
-# Studio Goldney
+# Javier Kejsefman
 
 This is a project done completely with React JS in the Coderhouse course.
 
@@ -93,4 +93,4 @@ The DashboardContainer contains a list of all the products that the user bought 
 
 ## Autor
 
-Alejo Tomás Clifton Goldney, University Programming Technician, 21 years old. "# proyecto-final-reactjs" 
+Javier C. Kejsefman, University Programming Technician. "# proyecto-final-reactjs" 
