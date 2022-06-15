@@ -1,7 +1,5 @@
 # Javier Kejsefman
 
-This is a project done completely with React JS in the Coderhouse course.
-
 ## Installation, Execution
 
 In order to run the program you must ...
